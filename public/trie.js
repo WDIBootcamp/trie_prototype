@@ -1,11 +1,9 @@
 Trie = function(){
   this.characters = {};
-  // this.isWord = null;
 
 };
 
 Trie.prototype.learn = function(word, index){
-
   // This function should add the given word,
   // starting from the given index,
   // to this Trie.
@@ -21,7 +19,7 @@ Trie.prototype.learn = function(word, index){
   // so that the words can be reconstructed later.
 
   word = word.toLowerCase();
-  
+
   var i = index || 0;
 
   var w = word[i];

@@ -4,6 +4,7 @@ Autocompleter = function(){
 
   // Array mode:
   // this.data = [];
+
 };
 
 Autocompleter.prototype.complete = function(prefix){
@@ -14,6 +15,7 @@ Autocompleter.prototype.complete = function(prefix){
   // return this.data.filter(function(str){
   //    return str.substring(0,prefix.length).toLowerCase() === prefix;
   // });
+
 };
 
 Autocompleter.prototype.add = function(word){

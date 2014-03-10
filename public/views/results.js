@@ -3,7 +3,7 @@ App.Views.Results = Backbone.View.extend({
   tagName: 'ul',
 
   template: function(){
-    return "<a href='http://en.wikipedia.org/wiki/{{title}}'><li class='each-result'>{{result}}</li></a>";
+    return "<a href='http://en.wikipedia.org/wiki/{{result}}'><li class='each-result'>{{result}}</li></a>";
   },
 
   render: function()  {
